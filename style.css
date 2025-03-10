@@ -69,7 +69,7 @@ body{
   
 } 
 .apresentacao__foto{  
-  width: 50%; 
+  width: 90%; 
  
   
  
@@ -133,8 +133,10 @@ body{
     .about {
       padding: 6% 15%;  
       color: var(--cor-secundaria);
-      font-family: "Montserrat", sans-serif;
+      font-family: "Montserrat", sans-serif;  
+      font-weight: 600;
       font-size: 1.25rem;
+
      
     }   
       .about__img { 
@@ -145,7 +147,6 @@ body{
       }
     .about__conteudo {
       display: flex;
-      justify-content: space-between; 
       align-items: center;
      
     } 
@@ -173,8 +174,14 @@ body{
  }  
  .apresentacao__conteudo {
   width: auto;
- 
- } 
+ }  
+ .about__conteudo { 
+  flex-direction:column;  
+  width: auto;
+ }  
+ .about{  
+  padding: 5%;
+ }
 }
 
 
